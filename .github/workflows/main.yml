@@ -13,7 +13,7 @@ jobs:
       - name: Validate composer.json and composer.lock
         run: composer validate
 
-      - name: Install dependenciesgit status
+      - name: Install dependencies
         run: composer install --no-progress --no-suggest
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
